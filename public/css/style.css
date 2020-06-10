@@ -18,7 +18,6 @@ body{
 
 .generic{
     border: 2px solid white;
-    color: white;
     height: 30px;
     padding: 5px;   
     
@@ -102,7 +101,7 @@ input:focus::placeholder {
 
 .button {
     color: white;
-    background: #63A2E0;
+    background: #6EA5DB;
     border-radius: 20px;
     border: none;
     padding: 11px;
