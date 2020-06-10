@@ -2276,14 +2276,20 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 8px 12px;
-    border: 1px solid #fff;
     border-radius: 3px;
     cursor: pointer;
     z-index: 999;
+    background: #8F3389; 
+    border: none;
   }
   .button:active {
     transform: translateX(-50%) scale(0.95);
   }
+
+  .button:hover {
+      background: #C93667;
+  }
+
   .sorry {
     position: absolute;
     top: 210px;
