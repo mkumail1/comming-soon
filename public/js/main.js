@@ -32,7 +32,7 @@
                                 $('.circle-loader').toggleClass('load-complete');
                                 $('.checkmark').toggle();
                                 $('#success').css('display', 'inline')
-                              }, 2000);
+                              }, 1200);
                               success.style.display = 'inline';
                             }
                           });

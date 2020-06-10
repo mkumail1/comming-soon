@@ -17,6 +17,10 @@ app.post('/submit', function(req, res){
     res.send('submitted Successfully');
 });
 
+app.get('/*', function(req, res){
+    res.render('error');
+});
+
 app.listen('3000', function () {
     console.log('Successfully started..');
 })
