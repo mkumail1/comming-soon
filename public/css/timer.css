@@ -23,19 +23,19 @@ span {
   color: white;
 }
 
+/* #seconds span {
+    font-size: 15px;
+} */
+
 #days {
   font-size: 5rem;
-  /* color: #db4844; */
 }
 #hours {
   font-size: 5rem;
-  /* color: #f07c22; */
 }
 #minutes {
   font-size: 5rem;
-  /* color: #f6da74; */
 }
 #seconds {
   font-size: 2.5rem;
-  /* color: #abcd58; */
 }
