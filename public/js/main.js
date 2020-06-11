@@ -8,12 +8,13 @@
         // Loop over them and prevent submission
         var validation = Array.prototype.filter.call(forms, function(form) {
             form.addEventListener('submit', function(event) {
-                form.classList.add('was-validated');            
 
                 if (form.checkValidity() === false) {
                     event.preventDefault();
                     event.stopPropagation();
                     success.style.display = 'none';
+                    
+                    form.classList.add('was-validated');            
 
                     let inputs = document.querySelectorAll('input')
                     inputs.forEach(function(input){
@@ -36,9 +37,7 @@
                               success.style.display = 'inline';
                             }
                           });
-                          //event.preventDefault();
                 }
-                //return false;
             }, false);
         });
     }, false);

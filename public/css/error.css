@@ -2281,6 +2281,7 @@
     z-index: 999;
     background: #8F3389; 
     border: none;
+    color: white;
   }
   .button:active {
     transform: translateX(-50%) scale(0.95);
@@ -2288,6 +2289,12 @@
 
   .button:hover {
       background: #C93667;
+      color: white;
+  }
+
+  #anchor {
+    color: white;
+    text-decoration: none;
   }
 
   .sorry {
