@@ -57,6 +57,7 @@ h4 {
 .newsletter {
     border: 2px solid white;
     border-radius: 7px;
+    height: 100%;
 }
 
 .newsletter h2{
@@ -137,3 +138,45 @@ input:focus::placeholder {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1329px) {
+    .coming-soon {
+        font-size: 5vw;
+    }
+
+    .our{
+        font-size: 1.95vw;
+        margin-bottom: 0;
+    }
+    
+    h4 {
+        font-size: 1.62vw;
+        margin: -1.58vw auto 0.65vw auto;
+        background: linear-gradient(to right, #ED9F8C 8.20vw, white 1.302px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } 
+    
+    .newsletter {
+        min-width: 30%;
+    }
+    
+    .newsletter h2 {
+        margin: 1.95vw;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1100px) {
+    .r-1 {
+      margin-top: 80px;
+    }
+  }
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    
+  }
+ 
+
