@@ -15,7 +15,7 @@
   padding: 20px;
 }
 
-span {
+.timer span {
   display: block;
   font-size: 20px;
   text-align: center;
@@ -38,15 +38,32 @@ span {
 
 @media screen and (max-width: 991px) {
     .timer {
+        margin: 50px 0;
+        text-align: center;
         font-weight: 400;
     }
   }
 
   
-  @media screen and (max-width: 642px) {
+  @media screen and (max-width: 558px) {
     .timer {
-        font-family: 'Jura', sans-serif;
-        text-align: center;
-        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 0;
     }
+    .timer div {
+        padding: 11px;
+      }
+
+    #days {
+        font-size: 3.5rem;
+      }
+      #hours {
+        font-size: 3.5rem;
+      }
+      #minutes {
+        font-size: 3.5rem;
+      }
+      #seconds {
+        font-size: 2rem;
+      }
   }

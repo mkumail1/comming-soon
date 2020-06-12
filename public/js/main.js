@@ -47,9 +47,9 @@
 
     function myFunction(x) {
         if (x.matches) { // If media query matches
-            $('.description').html('Rexia is a product-based Pakistani self grown IT company aiming to produce future leaders of the world!');
+            $('.description').html('<span>&#34;</span><br>Rexia is a product-based Pakistani self grown IT company aiming     to produce future leaders of the world!<br>&quot;');
         } else {
-            $('.description').html('Rexia is a product-based Pakistani self grown IT company aiming </br> to produce future leaders of the world!');
+            $('.description').html('&#34;<br>Rexia is a product-based Pakistani self grown IT company aiming <br> to produce future leaders of the world!<br>&quot;');
         }
       }
       
