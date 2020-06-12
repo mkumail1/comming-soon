@@ -62,6 +62,11 @@ h4 {
 	-webkit-text-fill-color: transparent;
 }
 
+.description span {
+    font-size: 50px !important;
+    line-height: 1;
+}
+
 .newsletter {
     border: 2px solid white;
     border-radius: 7px;
@@ -257,8 +262,9 @@ input:focus::placeholder {
 
     .description {
         width: 100%;
-        margin: auto;
+        margin: 40px auto;
         padding: 0 10px;
+        /* display: none; */
     }
 
     .newsletter {
