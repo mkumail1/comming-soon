@@ -18,9 +18,12 @@ body{
 
 .generic{
     border: 2px solid white;
-    height: 30px;
-    padding: 5px;   
-    
+    height: 35px;
+    padding: 7px;   
+}
+
+.generic:hover {
+    background: #6394D1;
 }
 
 .r-1{
@@ -175,8 +178,59 @@ input:focus::placeholder {
   }
 
   /* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+    .nav-elements{
+        margin: 0;
+    }
+
+    .r-1{
+        color: white;
+        margin: 100px 0 0 0;
+        text-align: center;
+    }
+    
+    .our{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .coming-soon{
+        font-size: 57px;
+    }
+    
+    h4 {
+        font-size: 20px;
+        margin: -15px auto 20px auto;
+        background: linear-gradient(to right, #ED9F8C 273px, white 373px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .description {
+        width: 410px;
+        margin: auto;
+        border-right: 2px solid #F4C0B8;
+        border-left: 2px solid #F4C0B8;
+        padding: 0 10px;
+    }
+    
+    .newsletter {
+        border: 2px solid white;
+        border-radius: 7px;
+        height: 100%;
+        max-width: 410px;
+        margin: 50px auto 30px;
+    }
+    
+    .newsletter h2{
+        margin: 40px;
+    }
+    
+    form{
+        margin: 30px 30px;
+    }
     
   }
+
  
 

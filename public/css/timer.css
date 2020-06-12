@@ -4,7 +4,6 @@
 
 .timer {
     font-family: 'Jura', sans-serif;
-    width: 520px;
     margin: 0;
     text-align: left;
     color: white;
@@ -23,10 +22,6 @@ span {
   color: white;
 }
 
-/* #seconds span {
-    font-size: 15px;
-} */
-
 #days {
   font-size: 5rem;
 }
@@ -39,3 +34,19 @@ span {
 #seconds {
   font-size: 2.5rem;
 }
+
+
+@media screen and (max-width: 991px) {
+    .timer {
+        font-weight: 400;
+    }
+  }
+
+  
+  @media screen and (max-width: 642px) {
+    .timer {
+        font-family: 'Jura', sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+  }
