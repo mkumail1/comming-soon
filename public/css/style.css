@@ -11,11 +11,16 @@ body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar, .btn{
+    box-shadow: none !important;
+}
+
 .logo {
     color: white;
     margin: 15px 15px 10px 20px;
     width: 6rem;
-}
+}  
 
 .nav-elements{
     margin: 0 20px;
