@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/img/render.png" type="image/png">
+    <title>Rexia</title>
+    <link rel="stylesheet" href="resources/css/mdb.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/success.css">
+    <link rel="stylesheet" href="resources/css/timer.css">
+    <link rel="stylesheet" href="resources/css/hover-min.css">
+    <link rel="stylesheet" href="resources/css/luminance.css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,800;1,200;1,300;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bs-example">
+        <nav class="navbar navbar-expand navbar-light bg-transparent">
+            <a href="/" class="navbar-brand">
+                <img src="resources/img/rexialogo-2.png" class="logo" alt="Rexia Tech">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto nav-elements">
+                    <a href="https://www.facebook.com/rexiatech" class="nav-item nav-link" title="" target="_blank"><img src="resources/img/facebook-logo.svg" class="generic hvr-backward" alt="Facebook"></a>
+                    <a href="#" class="nav-item nav-link" target=""><img src="resources/img/linkedin-logo.svg" class="generic hvr-sink" alt="Linkedin"></a>
+                    <a href="https://www.instagram.com/rexia_tech/" class="nav-item nav-link" target="_blank"><img src="resources/img/instagram-logo.svg" class="generic hvr-forward" alt="Instagram"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row r-1">
+        <div class="col-lg-1 col-1"></div>
+        <div class="col-xl-5 col-lg-5 col-12 animated fadeInDown">
+            <!-- <div class="container">
+                <div class="box">
+            
+                    <div class="title">
+                        <span class="block"><p class="our"></p></span>
+                        <h1 class="coming-soon">COMING SOON<span></span></h1>
+                    </div>
+            
+                    <div class="role">
+                        <div class="block"></div>
+                        <p>#fingerscrossed</p>
+                    </div>
+            
+                </div>
+            </div> -->
+            <p class="our">Our website is </p>
+            <h2 class="coming-soon animated bounceInRight delay-1s">COMING SOON</h2>
+            <h4 class="animated bounceInRight delay-2s">#fingerscrossed</h4>
+            <div class="container">
+                <p class="description">Rexia is a product-based Pakistani self grown IT company aiming <br> to produce future leaders of the world!</p>
+            </div>
+
+            <!-- Countdown -->
+                <div id="timer" class="timer animated fadeInUp delay-1s" id="timer">
+                    <div id="days"></div>
+                    <div id="hours"></div>
+                    <div id="minutes"></div>
+                    <div id="seconds"></div>
+                </div>
+            <!-- Countdown ends here -->
+              
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-xl-3 col-lg-4 col-12 bg-white newsletter animated pulse">
+            <h2>Newsletter</h2>
+            <form class="needs-validation" novalidate onsubmit="return false">
+                <!-- <di class="form-row"> -->
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="validationCustom01" name="name" placeholder="name" pattern="[A-Za-z ]{1,50}" required>
+                    <!-- <div class="valid-feedback">
+                      Looks good!
+                    </div> -->
+                  </div>
+                  <div class="form-group email">
+                    <input type="email" class="form-control" id="" name="email" placeholder="email" value="" required>
+                    <!-- <div class="valid-feedback">
+                      Looks good!
+                    </div> -->
+                  </div>
+                  
+                <button class="btn mt-1 font-weight-bold button" type="submit">Subscribe</button>
+            </form>
+            <div class="success" style="display: none;">
+                <div class="circle-loader tick">
+                    <div class="checkmark draw"></div>
+                </div>
+                <div id="success" style="display: none;">
+                    <p>Success! Check your email</p>
+                </div>
+            </div>
+            
+            <p class="text">And don’t worry, we hate spam too! You can unsubcribe at anytime.</p>       
+        </div>
+        <!-- <div class="col-md-1"></div> -->
+    </div>
+   
+</body>
+<script src="resources/js\jquery-3.5.1.min.js"></script>
+<script src="resources/js/main.js"></script>
+<script src="resources/js/timer.js"></script>
+</html>
